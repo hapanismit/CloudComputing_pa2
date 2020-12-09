@@ -32,4 +32,4 @@ COPY ValidationDataset.csv ValidationDataset.csv
 
 COPY wine_model.model wine_model.model
 
-ENTRYPOINT ["/opt/spark/bin/spark-submit", "--packages", "org.apache.hadoop:hadoop-aws:2.7.7", "wineTestingDocker.py"]
+ENTRYPOINT ["/opt/spark/bin/spark-submit", "--packages", "org.apache.hadoop:hadoop-aws:2.7.7", "wineTestDocker.py"]
